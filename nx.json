@@ -28,5 +28,10 @@
         "typecheckTargetName": "vite:typecheck"
       }
     }
-  ]
+  ],
+  "namedInputs": {
+    "sharedGlobals": [
+      "{workspaceRoot}/.github/workflows/ci.yml"
+    ]
+  }
 }
